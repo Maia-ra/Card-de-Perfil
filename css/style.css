@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    background: linear-gradient(135deg, #5a2424 0%, #aa1340 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,20 +20,31 @@ body {
     backdrop-filter: blur(10px);
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    padding: 2rem;
+    padding: 2.5rem 2rem;
     text-align: center;
     max-width: 300px;
     color: #fff;
 }
 
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.3 ease;
+}
+
 /* Foto */
 .profile-pic img {
-    width: 120px;
-    height: 120px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
     border: 3px solid #fff;
+    transform: scale(1.02);
+    transition: 0.3 ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
 }
 
 /* Nome */
@@ -48,15 +59,19 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* Botões */
 .buttons {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .buttons .btn-follow,
 .buttons .btn-message {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 25px;
@@ -64,15 +79,17 @@ body {
     color: #333;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .buttons .btn-follow:hover {
     background-color: #4CAF50;
     color: #fff;
+    transform: scale(1.1);
 }
 
 .buttons .btn-message:hover {
     background-color: #2196F3;
     color: #fff;
+    transform: scale(1.1);
 }
