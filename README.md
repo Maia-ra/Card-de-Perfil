@@ -4,7 +4,7 @@ Este projeto contém um **Card de Perfil** estilizado com HTML e CSS. O card exi
 
 ## Visualização
 
-![Exemplo de Card de Perfil](img-exemplo.jpg)  
+![Exemplo de Card de Perfil](/img/Card%20de%20Perfil.png)  
 *Exemplo de como o card de perfil se apresenta.*
 
 ## Tecnologias Utilizadas
