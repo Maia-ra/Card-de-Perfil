@@ -33,7 +33,7 @@ Este projeto contém um **Card de Perfil** estilizado com HTML e CSS. O card exi
 
     <img src="/img/Maiara.jpeg" alt="Foto de Perfil">
 
-    Altere o nome e a descrição do usuário nos elementos <h2> e <p>.
+    Altere o nome e a descrição do usuário nos elementos <h2> e <p>
 
 4. Personalize o estilo do card de perfil editando o arquivo style.css. Você pode alterar as cores, fontes, animações e o layout conforme desejar.
 
