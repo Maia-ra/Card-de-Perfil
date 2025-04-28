@@ -24,7 +24,7 @@ Este projeto contém um **Card de Perfil** estilizado com HTML e CSS. O card exi
 1. Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://link-do-repositorio.git
+   git clone https://github.com/Maia-ra/Card-de-Perfil
 2. Abra o arquivo index.html no seu navegador para visualizar o card de perfil.
 
 3. Para modificar as informações do card, edite o arquivo index.html:
