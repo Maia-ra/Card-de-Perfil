@@ -29,21 +29,20 @@ Este projeto contém um **Card de Perfil** estilizado com HTML e CSS. O card exi
 
 3. Para modificar as informações do card, edite o arquivo index.html:
 
-    Troque a imagem de perfil dentro da tag <img src="/img/Maiara.jpeg" alt="Foto de Perfil">.
+    Troque a imagem de perfil dentro da tag 
+
+    <img src="/img/Maiara.jpeg" alt="Foto de Perfil">.
 
     Altere o nome e a descrição do usuário nos elementos <h2> e <p>.
 
 4. Personalize o estilo do card de perfil editando o arquivo style.css. Você pode alterar as cores, fontes, animações e o layout conforme desejar.
 
 ## Estrutura do Projeto
-/perfil-card
-│
-├── index.html        # Arquivo HTML com a estrutura do card
-├── css
-│   └── style.css     # Arquivo CSS com o estilo do card
-├── img
-│   └── Maiara.jpeg   # Imagem de perfil
-└── README.md         # Este arquivo
+
+### Arquivo HTML com a estutura do card
+### Arquivo CSS com o estilo do card
+### Imagem do perfil
+### README este arquivo
 
 ## Contribuição
 
