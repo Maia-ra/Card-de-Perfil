@@ -31,7 +31,7 @@ Este projeto contém um **Card de Perfil** estilizado com HTML e CSS. O card exi
 
     Troque a imagem de perfil dentro da tag 
 
-    <img src="/img/Maiara.jpeg" alt="Foto de Perfil">.
+    <img src="/img/Maiara.jpeg" alt="Foto de Perfil">
 
     Altere o nome e a descrição do usuário nos elementos <h2> e <p>.
 
